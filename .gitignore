@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Ortam
+.venv/
+venv/
+env/
+
+# İşletim sistemi / editör
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude / yerel araç yapılandırması
+.claude/
+
+# Ödev dokümanı repoya yüklenmez (yönerge 2.3)
+*.docx
+
+# Üretilen veri (python main.py ile sklearn'den yeniden üretilir)
+data/raw/
+data/processed/
